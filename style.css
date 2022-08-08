@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: url(./img/heeder-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin-bottom: 200px;
+}
+
+.header__nav {
+    background: linear-gradient(180deg, #17181C 0%, rgba(23, 24, 28, 0) 100%);
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 100px;
+    align-content: center;
+}
+
+.header__nav-logo {
+    display: flex;
+    align-content: center;
+}
+
+.header__nav-list {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    display: flex;
+}
+
+.header__nav-contact {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header__nav-contact p {
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.about-us {
+    padding: 0 100px;
+    margin-bottom: 200px;
+}
+
+.about-us__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.about-us__title h2 {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    color: #17181C;
+}
+
+.about-us__title p {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    color: #818697;
+    max-width: 699px;
+}
+
+.about-us__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-us__cards p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    text-align: center; 
+    color: #2E2B57;
+    max-width: 330px;
+}
+
+.about-us__card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.we-pharm {
+    padding: 0 100px;
+    margin-bottom: 200px;
+}
+
+.we-pharm__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.we-pharm__title h2 {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    color: #17181C;
+}
+
+.we-pharm__title p {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    color: #818697;
+    max-width: 600px;
+}
+
+.we-pharm__cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.we-pharm__cards p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #17181C;
+    max-width: 550px;
+    margin: 10px 0;
+}
+
+.we-pharm__cards-in {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.we-blog {
+    padding: 0 100px;
+    margin-bottom: 200px;
+}
+
+.we-blog__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.we-blog__title h2 {
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 40px;
+    text-align: center;
+    color: #17181C;
+}
+
+.we-blog__title p {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 72px;
+    text-align: center;
+    color: #818697;
+    max-width: 800px;
+}
+
+.we-blog__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.we-blog__card {
+    width: 420px;
+    height: 536px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 6px rgba(110, 116, 134, 0.24);
+    border-radius: 24px;
+}
+
+.we-blog__card img {
+    border-radius: 24px;
+    width: 100%;
+}
+
+.we-blog__card p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #17181C;
+    max-width: 350px;
+    line-height: 30px;
+    margin: 16px;
+}
